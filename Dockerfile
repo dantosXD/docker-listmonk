@@ -2,7 +2,7 @@ FROM tiredofit/alpine:3.10
 LABEL maintainer="Dave Conroy (dave at tiredofit dot ca)"
 
 ### Set Defaults
-ENV LISTMONK_VERSION=0.3.0-alpha \
+ENV LISTMONK_VERSION=1.1.0 \
     ENABLE_NGINX=TRUE \
     ENABLE_SMTP=FALSE \
     ENABLE_CRON=FALSE \
